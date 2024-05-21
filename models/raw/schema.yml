@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: uploaded_crm
+    description: 'crm data'
+    database: DC_DWH
+    schema: RAW
+    tables:
+      - name: vadybininkai
+        description: 'vadybininku info'     
+      - name: telefonai
+        description: 'telefonai info'     
