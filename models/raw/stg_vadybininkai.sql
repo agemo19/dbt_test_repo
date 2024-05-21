@@ -1,3 +1,4 @@
+-- komas
 With stg_vadybininkai AS (
     SELECT 
         id, 
