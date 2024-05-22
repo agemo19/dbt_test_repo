@@ -7,6 +7,10 @@ sources:
     schema: RAW
     tables:
       - name: vadybininkai
-        description: 'vadybininku info'     
+        description: 'vadybininku info'
       - name: telefonai
-        description: 'telefonai info'     
+        description: 'telefonai info'
+      - name: adresai
+        description: 'adresu info'
+      - name: uzklausos
+        description: 'uzklausos info'
