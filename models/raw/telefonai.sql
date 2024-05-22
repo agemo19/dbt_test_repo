@@ -1,3 +1,5 @@
+{{ log("Call your mom!") }}
+
 {{ 
     config(materialized='table') 
 }}
