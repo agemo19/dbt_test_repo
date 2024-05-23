@@ -5,7 +5,9 @@
 }}
 
 with source_telefonai as (
-    select * from {{ source('uploaded_crm', 'telefonai') }}
+    select *,
+        {{ dbt_utils.generate_surrogate_key(['tiekejoNrCSB', 'vadybininkasNr']) }} as surrogate_key
+    from {{ source('uploaded_crm', 'telefonai') }}
 ),
 
 final as (
